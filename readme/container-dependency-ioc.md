@@ -25,24 +25,24 @@
 - How are you going to create a new instance of an ApplicationContext?
 - What is a prefix?
 - What is the lifecycle on an ApplicationContext?
-- What does the "@Bean annotation do?
+- What does the "@Component annotation do?
 - How are you going to create an ApplicationContext in an integration test or a JUnit test?
 - What do you have to do, if you would like to inject something into a private field?
 - What are the advantages of JavaConfig? What are the limitations?
-- What is the default bean id if you only use "@Bean"?
-- Can you use @Bean together with @Profile?
+- What is the default bean id if you only use "@Component"?
+- Can you use @Component together with @Profile?
 - What is Spring Expression Language (SpEL for short)?
 - What is the environment abstraction in Spring?
 - What can you reference using SpEL?
 - How do you configure a profile. What are possible use cases where they might be useful?
 - How many profiles can you have?
 - How do you enable JSR-250 annotations like @PostConstruct?
-- Why are you not allowed to annotate a final class with @Configuration
-- Why must you have a default constructor in your @Configuration annotated class?
-- Why are you not allowed to annotate final methods with @Bean?
+- Why are you not allowed to annotate a final class with @Config
+- Why must you have a default constructor in your @Config annotated class?
+- Why are you not allowed to annotate final methods with @Component?
 - What is the preferred way to close an application context?
 - How can you create a shared application context in a JUnit test?
-- What does a static @Bean method do?
+- What does a static @Component method do?
 - What is a ProperySourcesPlaceholderConfigurer used for?
 - What is a namespace used for in XML configuration
 - If you saw one of the <context/> elements covered in the course, would you know what it does?
