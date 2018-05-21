@@ -1,0 +1,23 @@
+## REST
+
+- What does REST stand for?
+- What is a resource?
+- What are safe REST operations?
+- What are idempotent operations? Why is idempotency important?
+- Is REST scalable and/or interoperable?
+- What are the advantages of the RestTemplate?
+- Which HTTP methods does REST use?
+- What is an HttpMessageConverter?
+- Is REST normally stateless?
+- What does @RequestMapping do?
+- Is @Controller a stereotype? Is @RestController a stereotype?
+- What is the difference between @Controller and @RestController?
+- When do you need @ResponseBody?
+- What does @PathVariable do?
+- What is the HTTP status return code for a successful DELETE statement?
+- What does CRUD mean?
+- Is REST secure? What can you do to secure it?
+- Where do you need @EnableWebMVC?
+- Name some common http response codes. When do you need @ResponseStatus?
+- Does REST work with transport layer security (TLS)?
+- Do you need Spring MVC in your classpath?

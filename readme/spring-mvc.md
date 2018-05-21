@@ -1,0 +1,22 @@
+## Spring MVC and the Web Layer
+
+- MVC is an abbreviation for a design pattern. What does it stand for and what is the idea behind it?
+- Do you need spring-mvc.jar in your classpath or is it part of spring-core?
+- What is the DispatcherServlet and what is it used for?
+- Is the DispatcherServlet instantiated via an application context?
+- What is the root application context? How is it loaded?
+- What is the @Controller annotation used for? How can you create a controller without an annotation?
+- What is the ContextLoaderListener and what does it do?
+- What are you going to do in the web.xml. Where do you place it?
+- How is an incoming request mapped to a controller and mapped to a method?
+- What is the @RequestParam used for?
+- What are the differences between @RequestParam and @PathVariable?
+- What are some of the valid return types of a controller method?
+- What is a View and what's the idea behind supporting different types of View?
+- How is the right View chosen when it comes to the rendering phase?
+- What is the Model?
+- Why do you have access to the model in your View? Where does it come from?
+- What is the purpose of the session scope?
+- What is the default scope in the web context?
+- Why are controllers testable artifacts?
+- What does the InternalResourceViewResolver do?

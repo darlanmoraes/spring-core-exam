@@ -1,0 +1,50 @@
+## Container, Dependency, and IOC
+
+- What is dependency injection and what are the advantages?
+- What is an interface and what are the advantages of making use of them in Java?
+- What is meant by "application-context" and how do you create one?
+- What is the concept of a "container" and what is its lifecycle?
+- Dependency injection using Java configuration
+- Dependency injection in XML, using constructor or setter injection
+- Dependency injection using annotations (@Component, @Autowired)
+- Component scanning, Stereotypes and Meta-Annotations
+- Scopes for Spring beans. What is the default?
+- What is an initialization method and how is it declared in a Spring bean?
+- What is a destroy method, how is it declared and when is it called?
+- What is a BeanFactoryPostProcessor and what is it used for?
+- What is a BeanPostProcessor and how is the difference to a BeanFactoryPostProcessor? What do they do? When are they called?
+- Are beans lazily or eagerly instantiated by default? How do you alter this behavior?
+- What does component-scanning do?
+- What is the behavior of the annotation @Autowired with regards to field injection, constructor injection and method injection?
+- How does the @Qualifier annotation complement the use of @Autowired?
+- What is the role of the @PostConstruct and @PreDestroy annotations? When will they get called?
+- What is a proxy object and what are the two different types of proxies Spring can create?
+- What is the power of a proxy object and where are the disadvantages?
+- What are the limitations of these proxies (per type)?
+- How do you inject scalar/literal values into Spring beans?
+- How are you going to create a new instance of an ApplicationContext?
+- What is a prefix?
+- What is the lifecycle on an ApplicationContext?
+- What does the "@Bean annotation do?
+- How are you going to create an ApplicationContext in an integration test or a JUnit test?
+- What do you have to do, if you would like to inject something into a private field?
+- What are the advantages of JavaConfig? What are the limitations?
+- What is the default bean id if you only use "@Bean"?
+- Can you use @Bean together with @Profile?
+- What is Spring Expression Language (SpEL for short)?
+- What is the environment abstraction in Spring?
+- What can you reference using SpEL?
+- How do you configure a profile. What are possible use cases where they might be useful?
+- How many profiles can you have?
+- How do you enable JSR-250 annotations like @PostConstruct?
+- Why are you not allowed to annotate a final class with @Configuration
+- Why must you have a default constructor in your @Configuration annotated class?
+- Why are you not allowed to annotate final methods with @Bean?
+- What is the preferred way to close an application context?
+- How can you create a shared application context in a JUnit test?
+- What does a static @Bean method do?
+- What is a ProperySourcesPlaceholderConfigurer used for?
+- What is a namespace used for in XML configuration
+- If you saw one of the <context/> elements covered in the course, would you know what it does?
+- What is @Value used for?
+- What is the difference between $ and # in @Value expressions?
