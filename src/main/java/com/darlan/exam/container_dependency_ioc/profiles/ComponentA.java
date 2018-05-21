@@ -4,7 +4,7 @@ public class ComponentA implements Component {
 
     @Override
     public String toString() {
-        return "ComponentA{}";
+        return "BeanA{}";
     }
 
 }

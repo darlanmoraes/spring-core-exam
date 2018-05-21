@@ -1,24 +1,26 @@
-package com.darlan.exam.container_dependency_ioc.profiles;
+package com.darlan.exam.container_dependency_ioc.conditions;
 
+import com.darlan.exam.container_dependency_ioc.conditionals.Bean;
+import com.darlan.exam.container_dependency_ioc.conditionals.Config;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-@ActiveProfiles("component-a")
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = { Config.class })
-public class ProfilesTest {
+@TestPropertySource(properties = { "condition.a = true" })
+public class ConditionsTest {
 
     @Autowired
-    private Component component;
+    private Bean bean;
 
     @Test
     public void testProfile() {
-        Assert.assertEquals("BeanA{}", component.toString());
+        Assert.assertEquals("BeanA{}", bean.toString());
     }
 
 }
