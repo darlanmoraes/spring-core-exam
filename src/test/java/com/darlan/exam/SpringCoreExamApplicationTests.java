@@ -1,4 +1,4 @@
-package com.darlan.exam.springcoreexam;
+package com.darlan.exam;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
